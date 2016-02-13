@@ -1,0 +1,99 @@
+#x11-libs/cairo cleartype abi_x86_32
+#media-libs/freetype bindist
+# required by www-client/firefox-44.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lang/python-2.7.11-r2:2.7 sqlite
+#x11-base/xorg-server
+media-libs/freetype -bindist
+sys-boot/grub:2 truetype
+sys-fs/udisk udisks
+virtual/jre -X -alsa -cups
+media-libs/mesa gbm
+x11-base/xorg-server xorg static-libs doc
+# required by media-video/vlc-2.2.1-r1::gentoo
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-video/ffmpeg-2.8.6::gentoo
+# required by media-video/vlc-2.2.1-r1::gentoo[-libav,avformat,avcodec,swscale]
+# required by vlc (argument)
+>=media-libs/mesa-11.1.1 classic egl gbm dri3 osmesa openmaxg gallium llvm vdpa xvmc xa gles
+sys-apps/kmod lzma zlib tools
+sys-boot/grub truetype device-mapper fonts libzfs mount themes 
+media-libs/mesa gallium udev vaapi
+sys-kernel/genkernel cryptsetup
+www-client/chromium-48.0* hidpi
+# required by www-client/chromium-48.0.2564.82::gentoo
+# required by chromium (argument)
+>=media-libs/harfbuzz-1.1.3 icu
+# required by www-client/chromium-48.0.2564.82::gentoo
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.3 icu
+x11-terms/rxvt-unicode 256-color blink fading-colors font-styles mousewheel perl pixbuff sartup-notification unicode3 xft wcwidth focused-urgency -vanilla
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo[truetype,png]
+# required by splashutils (argument)
+>=sys-libs/zlib-1.2.8-r1 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo[gpm]
+# required by splashutils (argument)
+>=sys-libs/gpm-1.20.7-r2 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo[truetype]
+# required by splashutils (argument)
+>=media-libs/freetype-2.6.2 static-libs
+# required by virtual/jpeg-0-r2::gentoo
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo
+# required by splashutils (argument)
+>=media-libs/libjpeg-turbo-1.4.2 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo[png]
+# required by splashutils (argument)
+>=media-libs/libpng-1.6.21 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo[truetype]
+# required by splashutils (argument)
+>=app-arch/bzip2-1.0.6-r7 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r7::gentoo
+# required by splashutils (argument)
+>=virtual/jpeg-0-r2:0 static-libs
+
+app-admin/sudo offensive
+sys-fs/udev kmod static-libs
+#sys-fs/eudev hwdb introspection kmod static-libs abi_x86_32
+sys-apps/openrc netifrc tools
+net-misc/openssh X hpn kerberos ldap ldns sctp skey ssl
+# required by net-misc/openssh-7.1_p2-r1::gentoo[ldns,bindist,-static]
+# required by net-misc/openssh (argument)
+>=net-libs/ldns-1.6.17-r1 -ecdsa
+sys-apps/dbus X debug doc static-libs systemd
+# required by sys-apps/systemd-228-r1::gentoo
+# required by sys-apps/gentoo-systemd-integration-4::gentoo
+virtual/udev systemd
+sys-kernel/dracut device-mapper
+# required by dev-qt/qtcore-4.8.7-r1::gentoo[qt3support]
+# required by media-video/vlc-2.2.2::gentoo[qt4]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtgui-4.8.7:4 qt3support
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtopengl-4.8.7:4 qt3support
+# required by dev-qt/qtcore-5.5.1-r1::gentoo
+# required by dev-qt/qtsql-5.5.1::gentoo
+# required by dev-qt/qtsql (argument)
+>=dev-libs/libpcre-8.38 pcre16
+x11-libs/cairo xcb
+x11-libs/libxcb
+app-text/ghostscript-gpl cups
+dev-qt/qtsql qt3support
+dev-qt/qtcore qt3support
+media-libs/libpng apng
+x11-libs/libxcb xkb
+x11-themes/gentoo-artwork grub
+x11-apps/mesa-progs egl
+x11-libs/libva drm egl
+www-servers/apache alpn apache2_modules_http2 apache2_modules_lbmethod_bybusyness apache2_modules_macro apache2_modules_unixd static apache2_modules_proxy_wstunnel ssl libressl doc theads
+www-client/firefox custom-optimization egl hwaccel pgo system-cairo system-libevent
+virtual/linux-sources firmware
+sys-apps/systemd audit cryptsetup curl elfutils gcrypt gudev http kdbus kmod lz4 nat qrcode sysv-utils importd curl gcrypt lzma
+sys-apps/busybox make-symlinks static systemd
+sys-apps/hwloc gl pci plugins
+sys-apps/hwids net pci udev usb
+app-editors/vim X vim-pager

@@ -1,0 +1,25 @@
+# required by x11-misc/tabbed (argument)
+=x11-misc/tabbed-0.6 ~amd64
+# required by x11-misc/gtk2fontsel (argument)
+=x11-misc/gtk2fontsel-0.1 ~amd64
+# required by dev-python/pygit2-0.23.3::gentoo
+# required by pygit2 (argument)
+=dev-libs/libgit2-0.23.4 ~amd64
+# required by pyuv (argument)
+=dev-python/pyuv-1.2.0 ~amd64
+# required by pygit2 (argument)
+=dev-python/pygit2-0.23.3 ~amd64
+# required by dev-python/pyuv-1.2.0::gentoo
+# required by pyuv (argument)
+=dev-libs/libuv-1.8.0 ~amd64
+
+#testing
+x11-libs/fltk
+
+#more testing
+=dev-java/oracle-jdk-bin-1.8.0.72
+=virtual/jdk-1.8.0
+>=sys-devel/gcc-5.3.0 **
+sys-devel/gcc ~amd64
+media-libs/mesa ~amd64
+media-libs/mesa
